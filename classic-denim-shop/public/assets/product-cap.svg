@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 820">
+<rect width="700" height="820" fill="#d1d5d4"/><rect x="70" y="40" width="560" height="740" rx="12" fill="#eceae3"/>
+<path d="M178 430 Q350 170 522 430 L500 510 Q350 450 200 510 Z" fill="#1f4d78"/><path d="M178 430 Q350 350 522 430" fill="none" stroke="#aac7dc" stroke-opacity=".3" stroke-width="3"/><path d="M322 505 Q410 485 540 555 Q452 565 350 540 Q260 560 160 554 Q245 500 322 505Z" fill="#153a5e"/>
+<circle cx="350" cy="370" r="28" fill="#d6b88c"/><text x="350" y="377" text-anchor="middle" font-size="22" font-family="Arial" font-weight="700" fill="#183657">CD</text>
+</svg>

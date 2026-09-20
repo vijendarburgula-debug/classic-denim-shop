@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 820">
+<defs><linearGradient id="g" x1="0" x2="1"><stop stop-color="#204e7a"/><stop offset="1" stop-color="#0c2c4d"/></linearGradient></defs>
+<rect width="700" height="820" fill="#d8dbd8"/><rect x="70" y="40" width="560" height="740" rx="12" fill="#e7e6df"/>
+<path d="M195 125 L350 90 L505 125 L472 360 L432 745 L360 745 L350 420 L340 745 L268 745 L228 360 Z" fill="url(#g)"/>
+<path d="M265 134 Q350 185 435 134" fill="none" stroke="#b8d0e4" stroke-opacity=".4" stroke-width="4"/><path d="M350 90 L350 745" stroke="#8eb0ca" stroke-opacity=".25"/>
+<path d="M228 360 L472 360" stroke="#081f37" stroke-width="18"/><path d="M228 360 L266 746 M472 360 L432 746" stroke="#d9e8f1" stroke-opacity=".25" stroke-width="3"/>
+<circle cx="350" cy="285" r="33" fill="#d6b88c"/><text x="350" y="292" text-anchor="middle" font-size="26" font-family="Arial" font-weight="700" fill="#183657">CD</text>
+</svg>

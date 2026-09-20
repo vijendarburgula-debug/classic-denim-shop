@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 820">
+<rect width="700" height="820" fill="#d5dad7"/><rect x="70" y="40" width="560" height="740" rx="12" fill="#e9e7e1"/>
+<path d="M210 190 L350 165 L490 190 L458 360 L395 590 L350 520 L305 590 L242 360 Z" fill="#3d709b"/>
+<path d="M350 165 L350 520 M242 360 L458 360" stroke="#c4d9e9" stroke-opacity=".3" stroke-width="3"/><path d="M210 190 L242 360 M490 190 L458 360" stroke="#1a4268" stroke-width="9"/>
+<circle cx="350" cy="250" r="27" fill="#d6b88c"/><text x="350" y="257" text-anchor="middle" font-size="21" font-family="Arial" font-weight="700" fill="#183657">CD</text>
+</svg>

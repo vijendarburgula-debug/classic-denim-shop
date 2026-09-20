@@ -1,0 +1,188 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Classic Denim — timeless men's denim, jackets, shirts and essentials." />
+  <title>Classic Denim — Men's Denim</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Oswald:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+  <div class="announcement">FREE SHIPPING ON ORDERS OVER ₹2,999 • EASY 7-DAY RETURNS</div>
+
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <button class="mobile-menu" id="mobileMenuBtn" aria-label="Open menu">☰</button>
+      <a class="brand" href="#home" aria-label="Classic Denim home">
+        <span class="brand-mark">CD</span>
+        <span><b>CLASSIC</b><small>DENIM CO.</small></span>
+      </a>
+      <nav class="nav-links" id="navLinks">
+        <a href="#shop">Shop</a>
+        <a href="#collections">Collections</a>
+        <a href="#story">Our Story</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <div class="nav-actions">
+        <button class="icon-btn" id="searchBtn" aria-label="Search">⌕</button>
+        <button class="cart-btn" id="cartBtn">Bag <span id="cartCount">0</span></button>
+      </div>
+    </div>
+  </header>
+
+  <main id="home">
+    <section class="hero">
+      <div class="hero-grid container">
+        <div class="hero-copy">
+          <p class="eyebrow">BUILT FOR THE LONG HAUL</p>
+          <h1>DENIM THAT<br><span>AGES WITH YOU.</span></h1>
+          <p class="hero-text">Classic cuts. Honest fabric. Zero fuss. Everyday men's denim made to get better with every wear.</p>
+          <div class="hero-actions">
+            <a href="#shop" class="btn btn-dark">Shop the collection</a>
+            <a href="#story" class="text-link">Why Classic Denim →</a>
+          </div>
+          <div class="hero-stats">
+            <div><strong>12</strong><span>signature styles</span></div>
+            <div><strong>7D</strong><span>easy returns</span></div>
+            <div><strong>₹0</strong><span>shipping over ₹2,999</span></div>
+          </div>
+        </div>
+        <div class="hero-art">
+          <div class="hero-panel">
+            <div class="hero-badge">EST. 1989</div>
+            <div class="hero-denim-card">
+              <div class="seam"></div>
+              <div class="pocket pocket-a"></div>
+              <div class="pocket pocket-b"></div>
+              <div class="belt"></div>
+              <div class="leg leg-a"></div>
+              <div class="leg leg-b"></div>
+              <span class="patch">CD</span>
+            </div>
+            <p>THE ORIGINAL INDIGO</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="trust-strip">
+      <div class="container trust-grid">
+        <span>HEAVYWEIGHT DENIM</span><span>TIMELESS FITS</span><span>REINFORCED DETAILS</span><span>HONEST PRICING</span>
+      </div>
+    </section>
+
+    <section class="section" id="collections">
+      <div class="container">
+        <div class="section-head">
+          <div><p class="eyebrow">EXPLORE</p><h2>Made for everyday.</h2></div>
+          <p>From straight-leg classics to rugged jackets, everything starts with good denim and a better fit.</p>
+        </div>
+        <div class="collection-grid">
+          <a href="#shop?category=Jeans" class="collection-card card-jeans"><span>01</span><div><h3>JEANS</h3><p>Our core collection</p></div></a>
+          <a href="#shop?category=Jackets" class="collection-card card-jackets"><span>02</span><div><h3>JACKETS</h3><p>Built for the weather</p></div></a>
+          <a href="#shop?category=Shirts" class="collection-card card-shirts"><span>03</span><div><h3>SHIRTS</h3><p>Easy layers</p></div></a>
+          <a href="#shop?category=Accessories" class="collection-card card-accessories"><span>04</span><div><h3>ACCESSORIES</h3><p>Finish the look</p></div></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section shop-section" id="shop">
+      <div class="container">
+        <div class="section-head shop-head">
+          <div><p class="eyebrow">THE SHOP</p><h2>Current favourites.</h2></div>
+          <p>Simple silhouettes, dependable fabrics, and the kind of denim that belongs in your rotation.</p>
+        </div>
+        <div class="toolbar">
+          <div class="filters" id="categoryFilters">
+            <button class="filter active" data-category="All">All</button>
+            <button class="filter" data-category="Jeans">Jeans</button>
+            <button class="filter" data-category="Jackets">Jackets</button>
+            <button class="filter" data-category="Shirts">Shirts</button>
+            <button class="filter" data-category="Shorts">Shorts</button>
+            <button class="filter" data-category="Accessories">Accessories</button>
+          </div>
+          <select id="sortSelect" aria-label="Sort products">
+            <option value="featured">Featured</option>
+            <option value="low">Price: Low to high</option>
+            <option value="high">Price: High to low</option>
+            <option value="name">Name</option>
+          </select>
+        </div>
+        <div class="product-grid" id="productGrid"></div>
+      </div>
+    </section>
+
+    <section class="story" id="story">
+      <div class="container story-grid">
+        <div class="story-art"><div class="story-stamp">EST.<br>1989</div></div>
+        <div class="story-copy">
+          <p class="eyebrow">OUR STORY</p>
+          <h2>Less trend.<br>More character.</h2>
+          <p>Classic Denim Co. started with a simple idea: make men's denim that doesn't need a season to make sense. We focus on durable fabric, honest construction, and fits that still look right five years from now.</p>
+          <p>Our denim is designed to fade, soften, and pick up the marks of your life. That's the point.</p>
+          <a href="#shop" class="btn btn-light">Shop timeless denim</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="newsletter" id="contact">
+      <div class="container newsletter-inner">
+        <div><p class="eyebrow">STAY IN THE LOOP</p><h2>New drops, old-school attitude.</h2></div>
+        <form id="newsletterForm" class="newsletter-form"><input type="email" required placeholder="Your email address" aria-label="Email address"><button class="btn btn-dark">Sign me up</button></form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div><a class="brand footer-brand" href="#home"><span class="brand-mark">CD</span><span><b>CLASSIC</b><small>DENIM CO.</small></span></a><p class="footer-note">Timeless men's denim, made for the long haul.</p></div>
+      <div><h4>SHOP</h4><a href="#shop">Jeans</a><a href="#shop">Jackets</a><a href="#shop">Shirts</a></div>
+      <div><h4>HELP</h4><a href="#contact">Contact</a><a href="#contact">Shipping</a><a href="#contact">Returns</a></div>
+      <div><h4>FOLLOW</h4><a href="#">Instagram</a><a href="#">Facebook</a><a href="#">Pinterest</a></div>
+    </div>
+    <div class="container footer-bottom"><span>© 2026 Classic Denim Co.</span><span>Made for everyday.</span></div>
+  </footer>
+
+  <div class="search-overlay" id="searchOverlay" aria-hidden="true">
+    <div class="search-box"><button id="closeSearch" class="close-btn">×</button><p class="eyebrow">SEARCH THE SHOP</p><input id="searchInput" type="search" placeholder="Try “raw denim” or “jacket”"><div id="searchResults" class="search-results"></div></div>
+  </div>
+
+  <aside class="cart-drawer" id="cartDrawer" aria-hidden="true">
+    <div class="cart-header"><div><p class="eyebrow">YOUR BAG</p><h3>Selected pieces</h3></div><button id="closeCart" class="close-btn">×</button></div>
+    <div id="cartItems" class="cart-items"></div>
+    <div class="cart-footer">
+      <div class="cart-line"><span>Subtotal</span><strong id="cartSubtotal">₹0</strong></div>
+      <p class="shipping-note">Free shipping over ₹2,999. Otherwise ₹149.</p>
+      <button id="checkoutBtn" class="btn btn-dark full-width">Checkout</button>
+    </div>
+  </aside>
+  <div class="backdrop" id="backdrop"></div>
+
+  <div class="modal" id="checkoutModal" aria-hidden="true">
+    <div class="modal-card">
+      <button id="closeCheckout" class="close-btn">×</button>
+      <p class="eyebrow">CHECKOUT</p>
+      <h2>Ship your denim.</h2>
+      <form id="checkoutForm" class="checkout-form">
+        <div class="form-grid">
+          <input name="name" required placeholder="Full name">
+          <input name="email" required type="email" placeholder="Email address">
+          <input name="phone" required placeholder="Phone number">
+          <input name="city" required placeholder="City">
+          <input name="pincode" required placeholder="PIN code">
+          <input name="address" required class="full" placeholder="Full delivery address">
+        </div>
+        <div class="checkout-summary"><span>Payable total</span><strong id="checkoutTotal">₹0</strong></div>
+        <button class="btn btn-dark full-width" type="submit">Place demo order</button>
+        <p class="demo-note">Demo checkout only — no real payment is collected.</p>
+      </form>
+    </div>
+  </div>
+
+  <div class="success-toast" id="toast"></div>
+  <script src="/app.js"></script>
+</body>
+</html>
