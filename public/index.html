@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Classic Denim men's wear shop in Gajwel." />
+  <title>Classic Denim — Men's Wear</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Oswald:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+  <div class="announcement" id="announcement">CLASSIC DENIM MEN'S WEAR • GAJWEL • CALL <span id="announcementPhone">9502747507</span></div>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <button class="mobile-menu" id="mobileMenuBtn" aria-label="Open menu">☰</button>
+      <a class="brand" href="#home"><span class="brand-mark">CD</span><span><b>CLASSIC</b><small>DENIM CO.</small></span></a>
+      <nav class="nav-links" id="navLinks"><a href="#shop">Shop</a><a href="#collections">Categories</a><a href="#story">About</a><a href="#contact">Contact</a></nav>
+      <div class="nav-actions"><button class="icon-btn" id="searchBtn" aria-label="Search">⌕</button><button class="cart-btn" id="cartBtn">Bag <span id="cartCount">0</span></button></div>
+    </div>
+  </header>
+
+  <main id="home">
+    <section class="hero"><div class="hero-grid container"><div class="hero-copy"><p class="eyebrow">CLASSIC MEN'S WEAR • GAJWEL</p><h1>YOUR EVERYDAY<br><span>MEN'S WARDROBE.</span></h1><p class="hero-text">Shop jeans, track pants, shirts and T-shirts at Classic Denim. Choose your size, add to bag and place your order.</p><div class="hero-actions"><a href="#shop" class="btn btn-dark">Shop now</a><a href="#contact" class="text-link">Visit our shop →</a></div><div class="hero-stats"><div><strong>4</strong><span>main categories</span></div><div><strong>COD</strong><span>available</span></div><div><strong>UPI</strong><span>available when configured</span></div></div></div><div class="hero-art"><div class="hero-panel"><div class="hero-badge">GAJWEL</div><div class="hero-denim-card"><div class="seam"></div><div class="pocket pocket-a"></div><div class="pocket pocket-b"></div><div class="belt"></div><div class="leg leg-a"></div><div class="leg leg-b"></div><span class="patch">CD</span></div><p>CLASSIC FIT. EVERYDAY STYLE.</p></div></div></div></section>
+
+    <section class="trust-strip"><div class="container trust-grid"><span>JEANS</span><span>TRACK PANTS</span><span>SHIRTS</span><span>T-SHIRTS</span></div></section>
+
+    <section class="section" id="collections"><div class="container"><div class="section-head"><div><p class="eyebrow">SHOP BY CATEGORY</p><h2>Pick your everyday style.</h2></div><p>Only the categories you asked for: jeans, track pants, shirts and T-shirts. Product photos can be updated by the shop owner from the Owner page.</p></div><div class="collection-grid"><a href="#shop" data-jump-category="Jeans" class="collection-card card-jeans"><span>01</span><div><h3>JEANS</h3><p>Classic fits</p></div></a><a href="#shop" data-jump-category="Track Pants" class="collection-card card-jackets"><span>02</span><div><h3>TRACK PANTS</h3><p>Comfort everyday</p></div></a><a href="#shop" data-jump-category="Shirts" class="collection-card card-shirts"><span>03</span><div><h3>SHIRTS</h3><p>Easy layers</p></div></a><a href="#shop" data-jump-category="T-Shirts" class="collection-card card-accessories"><span>04</span><div><h3>T-SHIRTS</h3><p>Clean basics</p></div></a></div></div></section>
+
+    <section class="section shop-section" id="shop"><div class="container"><div class="section-head shop-head"><div><p class="eyebrow">THE SHOP</p><h2>Choose. Add. Buy.</h2></div><p>Select a size and add the item to your bag. At checkout, enter your delivery details and choose a payment mode.</p></div><div class="toolbar"><div class="filters" id="categoryFilters"><button class="filter active" data-category="All">All</button><button class="filter" data-category="Jeans">Jeans</button><button class="filter" data-category="Track Pants">Track Pants</button><button class="filter" data-category="Shirts">Shirts</button><button class="filter" data-category="T-Shirts">T-Shirts</button></div><select id="sortSelect" aria-label="Sort products"><option value="featured">Featured</option><option value="low">Price: Low to high</option><option value="high">Price: High to low</option><option value="name">Name</option></select></div><div class="product-grid" id="productGrid"></div></div></section>
+
+    <section class="story" id="story"><div class="container story-grid"><div class="story-art"><div class="story-stamp">GAJWEL<br>CLASSIC</div></div><div class="story-copy"><p class="eyebrow">OUR SHOP</p><h2>Simple style.<br>Good value.</h2><p>Classic Denim is a men's wear shop serving customers in Gajwel with everyday jeans, track pants, shirts and T-shirts.</p><p>We keep the shopping simple: choose the product, select your size, add it to your bag and place your order.</p><a href="#shop" class="btn btn-light">Shop now</a></div></div></section>
+
+    <section class="contact-shop" id="contact"><div class="container contact-card"><div><p class="eyebrow">VISIT THE SHOP</p><h2 id="shopName">Classic Denim</h2><p class="shop-address" id="shopAddress">Beside Shivalayam, Main Road, Gajwel</p><a class="phone-link" id="shopPhone" href="tel:9502747507">9502747507</a></div><div class="payment-summary"><span>PAYMENT MODES</span><strong id="paymentModes">Cash on Delivery • UPI</strong><small>UPI becomes active when the shop UPI ID is configured.</small></div></div></section>
+  </main>
+
+  <footer class="footer"><div class="container footer-grid"><div><a class="brand footer-brand" href="#home"><span class="brand-mark">CD</span><span><b>CLASSIC</b><small>DENIM CO.</small></span></a><p class="footer-note">Classic men's wear in Gajwel.</p></div><div><h4>SHOP</h4><a href="#shop">Jeans</a><a href="#shop">Track Pants</a><a href="#shop">Shirts</a><a href="#shop">T-Shirts</a></div><div><h4>CONTACT</h4><a href="#contact">Beside Shivalayam</a><a href="#contact">Main Road, Gajwel</a><a id="footerPhone" href="tel:9502747507">9502747507</a></div><div><h4>OWNER</h4><a href="/admin.html">Owner Login</a></div></div><div class="container footer-bottom"><span>© 2026 Classic Denim Co.</span><span>Made for everyday.</span></div></footer>
+
+  <div class="search-overlay" id="searchOverlay" aria-hidden="true"><div class="search-box"><button id="closeSearch" class="close-btn">×</button><p class="eyebrow">SEARCH THE SHOP</p><input id="searchInput" type="search" placeholder="Try “jeans” or “T-shirt”"><div id="searchResults" class="search-results"></div></div></div>
+  <aside class="cart-drawer" id="cartDrawer" aria-hidden="true"><div class="cart-header"><div><p class="eyebrow">YOUR BAG</p><h3>Selected items</h3></div><button id="closeCart" class="close-btn">×</button></div><div id="cartItems" class="cart-items"></div><div class="cart-footer"><div class="cart-line"><span>Subtotal</span><strong id="cartSubtotal">₹0</strong></div><p class="shipping-note">Free shipping over ₹2,999. Otherwise ₹149.</p><button id="checkoutBtn" class="btn btn-dark full-width">Checkout</button></div></aside><div class="backdrop" id="backdrop"></div>
+
+  <div class="modal" id="checkoutModal" aria-hidden="true"><div class="modal-card"><button id="closeCheckout" class="close-btn">×</button><p class="eyebrow">CHECKOUT</p><h2>Enter delivery details.</h2><form id="checkoutForm" class="checkout-form"><div class="form-grid"><input name="name" required placeholder="Full name"><input name="phone" required placeholder="Phone number"><input name="city" required placeholder="City"><input name="pincode" required placeholder="PIN code"><input name="address" required class="full" placeholder="Full delivery address"></div><div class="payment-options"><label class="payment-option"><input type="radio" name="paymentMode" value="COD" checked> <span><b>Cash on Delivery</b><small>Pay when the order arrives.</small></span></label><label class="payment-option" id="upiPaymentOption"><input type="radio" name="paymentMode" value="UPI"> <span><b>UPI</b><small id="upiHint">UPI ID: not configured</small></span></label></div><div class="checkout-summary"><span>Payable total</span><strong id="checkoutTotal">₹0</strong></div><button class="btn btn-dark full-width" type="submit">Place order</button><p class="demo-note" id="paymentNote">COD orders are confirmed immediately. UPI orders are marked pending verification until payment is checked.</p></form></div></div>
+  <div class="success-toast" id="toast"></div><script src="/app.js"></script>
+</body></html>
